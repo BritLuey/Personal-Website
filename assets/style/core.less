@@ -1,0 +1,34 @@
+/* Important Note
+- Do not include variables.less, this is handled by the compiler 
+- Also, variables.less must only contain variables (no comments either) as it is directly copied to the head of every less file
+*/
+
+@import 'reset.less';
+
+:root {
+
+    --surface: #161a1d;
+    --background: #101214;
+
+    --text-body: #DEE4EA;
+    --heading-color: #DEE4EA;
+    --subheading-color: #738496;
+
+    --button-text: #DEE4EA;
+    --button-background: #22272B;
+    --button-background-hover: lighten(#22272B, 10%);
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    letter-spacing: 0.03em;
+    color: var(--text-body);
+    background: var(--background);
+    font-family: "Inter", system-ui;
+
+    ::selection {
+        color: var(--selection-color);
+        background-color: var(--selection-background);
+    }
+}

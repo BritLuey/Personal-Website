@@ -1,0 +1,63 @@
+{
+    "files.exclude": {
+        ".nuxt": true,
+        ".npmrc": true,
+        ".output": true,
+        ".vscode": true,
+        "readme.md": true,
+        ".gitignore": true,
+        ".env.local": true,
+        "vercel.json": true,
+        "package.json": true,
+        "tsconfig.json": true,
+        "node_modules/": true,
+        "**.prettierrc": true,
+        "**.prettierignore": true,
+        "**/pnpm-lock.yaml": true
+    },
+    "vue.autoInsert.dotValue": true,
+    "vue.format.script.initialIndent": true,
+    "vue.format.style.initialIndent": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "html.format.wrapLineLength": 0,
+    "editor.minimap.autohide": true,
+    "workbench.tree.indent": 32,
+    "workbench.tree.renderIndentGuides": "none",
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "off",
+    "editor.stickyScroll.enabled": false,
+    "explorer.compactFolders": false,
+    "better-comments.tags": [
+        {
+            "tag": "Danger:",
+            "color": "#ff0000",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "Todo:",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "Purpose: ",
+            "color": "#1E90FF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "cursor.cmdk.useThemedDiffBackground": false,
+    "workbench.colorTheme": "Default Dark Modern"
+}
