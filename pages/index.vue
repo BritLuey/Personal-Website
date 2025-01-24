@@ -149,7 +149,7 @@ onUnmounted(() => {
                                 target="_blank"
                                 label="Resume"
                                 icon="mdi:file-pdf"
-                                to="/Louis-Rozier-Resume.pdf"
+                                to="https://www.linkedin.com/in/louis-rozier-41242933b"
                             />
                         </div>
                     </div>
